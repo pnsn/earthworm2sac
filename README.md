@@ -3,16 +3,16 @@ Python script to get SAC files from earthworm wave_serverV or Winston.
 
 # Installation
 I recommend working with virtual environments. See  http://docs.python-guide.org/en/latest/dev/virtualenvs/
-1. as root or sudo:
+1. If you don't have pip installed yet, do as root or sudo:
 `easy_install pip`
-2. as root or sudo:
+2. If you don't have virtualenv installed yet, do as root or sudo:
 `pip install virtualenv`
 3. as yourself, in some directory:
 `virtualenv my-python`
 4. activate the virtual environtment:
 `source some-directory/my-python/bin/activate` (if you use bash)
 `source some-directory/my-python/bin/activate.csh` (if you use csh)
-5. use pip to install packages in this virtual environment
+5. use pip to install packages in this virtual environment, for example, see below.
 6. if you want to stop using the virtual environment:
 `deactivate`
 
